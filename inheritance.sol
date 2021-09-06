@@ -6,7 +6,7 @@ contract Inheritance {
     bool deceased;
     uint256 money;
 
-    constructor() public payable {
+    constructor() payable {
         owner = msg.sender;
         money = msg.value;
         deceased = false;
